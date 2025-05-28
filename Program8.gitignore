@@ -1,0 +1,33 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+
+\begin{document}
+\title{Demonstrating Numbered Theorems, Definitions, Corollaries, and Lemmas}
+\author{Author Name}
+\date{\today}
+\maketitle
+
+\section{Theorems, Definitions, Lemmas, and Corollaries}
+
+\begin{theorem}
+If a and b are two real numbers, then their sum is commutative, i.e., a + b = b + a.
+\end{theorem}
+
+\begin{lemma}
+Let a + b = 0, then b = -a.
+\end{lemma}
+
+\begin{corollary}
+If a + b = 0 and a = 2, then b = -2.
+\end{corollary}
+
+\begin{definition}
+A number is called even if it is divisible by 2.
+\end{definition}
+
+\end{document}
