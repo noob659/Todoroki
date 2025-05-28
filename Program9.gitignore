@@ -1,0 +1,19 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[style=numeric, sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+
+\title{Document with Citations and References}
+\author{Author Name}
+\date{\today}
+\maketitle
+
+\section*{Introduction}
+This is the first paragraph citing sources \cite{author1,author2,author3}.
+Additional references \cite{author4,author5,author6} are added here.
+\cite{author7,author8,author9,author10} are also included.
+
+\section*{References}
+\printbibliography
+\end{document}
