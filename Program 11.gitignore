@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+\title{Presenting an Algorithm in LaTeX}
+\author{Author Name}
+\date{\today}
+\maketitle
+
+\begin{document}
+\begin{algorithm}[H]
+\SetAlgoLined
+\KwData{Input data}
+\KwResult{Output}
+\caption{Find Maximum in List}
+\Begin{
+    $max \gets A[0]$\;
+    \For{$i \gets 1$ \textbf{to} length($A$)-1}{
+        \If{$A[i] > max$}{
+            $max \gets A[i]$\;
+        }
+    }
+    \KwRet{$max$}\;
+}
+\end{algorithm}
+\end{document}
