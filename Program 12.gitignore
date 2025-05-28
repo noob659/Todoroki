@@ -1,0 +1,27 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Simple Report Example}
+\author{Author Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Introduction}
+This is the introduction.
+
+\chapter{Methodology}
+Details about the methods used.
+
+\chapter{Results}
+\section{Graphs}
+\includegraphics[width=0.5\textwidth]{example-image}
+
+\chapter{Conclusion}
+Summary of the report.
+\end{document}
