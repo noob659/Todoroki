@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{tikz}
+
+\begin{document}
+\title{Simple Tree Diagram}
+\author{Author Name}
+\date{\today}
+\maketitle
+
+\begin{tikzpicture}
+\node {Root}
+    child {node {Child 1}}
+    child {node {Child 2}
+        child {node {Grandchild 1}}
+        child {node {Grandchild 2}}}
+    child {node {Child 3}};
+\end{tikzpicture}
+\end{document}
